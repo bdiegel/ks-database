@@ -1,5 +1,5 @@
 function (doc, meta) {
-   if (doc.type && doc.type == "inspection") {
+   if (doc.doctype && doc.doctype == "inspection") {
       emit(doc.place.place_id, 
            { "date": doc.inspection.date, 
              "place": doc.place, 
